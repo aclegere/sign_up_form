@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Super Secret Coffee Club</title>
 </head>
 <body>
-    <div class="formContainer">
-        <form>
-            <div>
-                <label for="FirstName">First Name</label>
-                <input type="text" placeholder="First Name" id="FirstName">
+    <div class="mainContent">
+        <div class="right">
+            <div class="header">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your coffee dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to!</p>
             </div>
-            <div>
-                <label for="LastName">Last Name</label>
-                <input type="text" placeholder="Last Name" id="LastName">
+            <div class="formContainer">
+                <form>
+                    <div>
+                        <label for="FirstName">First Name</label>
+                        <input type="text" placeholder="First Name" id="FirstName" required>
+                    </div>
+                    <div>
+                        <label for="LastName">Last Name</label>
+                        <input type="text" placeholder="Last Name" id="LastName" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="i_am_a_person@wahoo.com" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" placeholder="508-876-5309" id="phoneNumber" minlength="9" maxlength="9">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" required>
+                    </div>
+                </form>
+                <button type="button">Create Account</button>
+                <p>Already have an account? <span class="loginClick">Log in</span></p>
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" placeholder="i_am_a_person@wahoo.com" id="email">
-            </div>
-            <div>
-                <label for="phoneNumber">Phone Number</label>
-                <input type="tel" placeholder="508-876-5309" id="phoneNumber">
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password">
-            </div>
-            <div>
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" id="confirmPassword">
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>
