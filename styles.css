@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainContent{
+    display: flex;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.rightsideHeader{
+    margin: 100px;
+}
+
+
+
+/*
+form{
+    
+}
+
+
+
+.leftside{
+    
+}
+
+.rightside{
+    
+}
+
+.coffee{
+    
+}
+*/
